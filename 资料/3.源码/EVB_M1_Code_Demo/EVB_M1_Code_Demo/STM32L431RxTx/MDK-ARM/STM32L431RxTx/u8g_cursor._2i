@@ -1,6 +1,0 @@
--c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc -I ../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I ../Drivers/CMSIS/Include -I ..\u8glib\src -I ..\OLED -I ..\BC95 -I .\RTE\_STM32L431RxTx --C99
--I.\RTE\_STM32L431RxTx
--IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include
--IC:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
--D__UVISION_VERSION="524" -D_RTE_ -DSTM32L431xx -DUSE_HAL_DRIVER -DSTM32L431xx
--o stm32l431rxtx\u8g_cursor.o --omf_browse stm32l431rxtx\u8g_cursor.crf --depend stm32l431rxtx\u8g_cursor.d --feedback "STM32L431RxTx\STM32L431RxTx.fed" "..\u8glib\src\u8g_cursor.c"

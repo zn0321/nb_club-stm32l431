@@ -1,1 +1,0 @@
-stm32l431rxtx\startup_stm32l431xx.o: startup_stm32l431xx.s
